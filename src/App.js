@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import Body from "./Components/Body";
+import Maincard from "./Components/Maincard";
+import Review from "./Components/Review";
+import Bodycard from "./Components/Bodycard";
+import Login3 from './Components/Login3';
+import About from "./Components/About";
+import Contactus from "./Components/Contactus";
+import Cbse from './Components/Cbse';
+import Icse from './Components/Icse';
+import Register from './Components/Register';
+import Explaination from './Components/Explaination';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Details from "./Components/Details";
+import School from "./Components/School";
+import Data from "./Components/Data";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<><Body /><School/><Explaination/><Details/> <Maincard/><Bodycard/><Data/><Review/></>} />
+        <Route path="/about" element={<About />} />
+        <Route path="/login2" element={<Login3/>} />
+        <Route path="/contactus" element={<Contactus/>}/>
+        <Route path="/icse" element={<Icse />} />
+        <Route path="/cbse" element={<Cbse/>} />
+        <Route path="/new_registration" element={<Register/>} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,33 @@
+.explaination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40%;
+    margin: auto; 
+    background-color: rgb(208, 251, 208);
+  }
+  
+  .firsthalf {
+    flex: 1;
+    padding: 2rem;
+    height: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    border-right: 10px solid orangered;
+    border-bottom: 10px solid orangered;
+    width:70%;
+  }
+  .firsthalf h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 40rem;
+    font-size: 100;
+    font-weight: bolder;
+  }
+  .secondhalf {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .secondhalf img {
+    max-width: 100%;
+  }
+  

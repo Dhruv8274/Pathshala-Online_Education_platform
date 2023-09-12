@@ -1,0 +1,68 @@
+.contactpage{
+    background-color: black;
+    color: #bc9864;
+}
+.firsticon{
+    list-style: none;
+    border: 2px solid #bc9864;
+    border-radius: 20px;
+    width: 20%;
+    min-height: 20%;
+    max-height: 25%;
+    padding: 10px;
+    margin:5px;
+}
+body {
+    background-color: #444442;
+    padding-top: 85px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif, 'arial';
+    font-weight: 600;
+    font-size: 72px;
+    color: black;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif, 'arial';
+    font-weight: 400;
+    font-size: 20px;
+    color: #bc9864;
+    line-height: 1.5;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    height:44px;
+    border: 1px solid #bc9864;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: #FF4500;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #fa571b;
+  }
+  .container {
+    padding-top: 80px;
+    border-radius: 0px;
+    background-color: black;
+  }
+  label {
+    color: #060606;
+    font-size: 1.3em;
+    display: flex;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    margin: 0px;
+}

@@ -1,0 +1,36 @@
+.aboutmain{
+    height:100%;
+    width: 100%;
+    background-color: rgb(223, 177, 115);
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 7px solid rgba(0,0,0,.1);
+}
+
+.aboutcontainer {
+    display: flex;
+    background-color: rgb(223, 177, 115);
+  }
+  
+  .container1,
+  .container2 {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .container1 {
+    background-color: rgb(223, 177, 115);
+    width: 50%;
+    height: 50%;
+    
+  }
+  
+  .container2 {
+    background-color:rgb(223, 177, 115);
+  }
+  .para{
+    gap: 5px;
+  }

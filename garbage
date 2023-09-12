@@ -1,0 +1,73 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+class BlackBackground extends React.Component {
+  render() {
+    const containerStyle = {
+      backgroundColor: 'black',
+      width: '100vw',
+      height: '100vh',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+    };
+
+    const boxStyle = {
+      backgroundColor: '#f3e9e9',
+      padding: '30px',
+      paddingLeft:'10px',
+      border: '2px solid #FF1744',
+      borderRadius: '10px',
+      boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.3)',
+      width:'35%',
+    };
+
+    const inputStyle = {
+      backgroundColor: '#F5F5F5',
+      color: 'black',
+      padding: '10px',
+      border: 'none',
+      borderRadius: '5px',
+      marginBottom: '15px',
+      width: '100%',
+    };
+
+    const buttonStyle = {
+      backgroundColor: '#FF4500',
+      color: 'white',
+      padding: '12px 20px',
+      border: 'none',
+      borderRadius: '5px',
+      cursor: 'pointer',
+      fontSize: '16px',
+      fontWeight: 'bold',
+      width: '100%',
+    };
+
+    const headingStyle = {
+      color: 'black',
+      marginBottom: '20px',
+      textAlign: 'center',
+    };
+
+    return (
+      <div style={containerStyle}>
+        <div className="heading" style={{justifyContent:'center',color:'white'}}>
+          <h1>Welcome to PathShala!</h1>
+          <p>Online learning platform</p>
+          </div>
+        <div style={boxStyle}>
+          <form>
+            <h2 style={{headingStyle}}>Login</h2>
+            <input type="text" style={inputStyle} placeholder="Email" />
+            <input type="password" style={inputStyle} placeholder="Password" />
+            <input type="password" style={inputStyle} placeholder="Confirm Password" />
+            <button className="glowing-button"type="submit" style={buttonStyle}>Submit</button>
+          </form>
+          <p style={{color:"black"}}>Don't have account    <Link to='/new_registration'>Register Now</Link></p>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default BlackBackground;
