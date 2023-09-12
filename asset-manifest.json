@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Pathshala-Online_Education_platform/static/css/main.806c6b34.css",
+    "main.js": "/Pathshala-Online_Education_platform/static/js/main.3ec25ecc.js",
+    "static/js/787.33337244.chunk.js": "/Pathshala-Online_Education_platform/static/js/787.33337244.chunk.js",
+    "static/media/intro.mp4": "/Pathshala-Online_Education_platform/static/media/intro.12738fb1e88391128815.mp4",
+    "static/media/main.jpg": "/Pathshala-Online_Education_platform/static/media/main.c9bf4eb7b744bae84b28.jpg",
+    "static/media/books1.png": "/Pathshala-Online_Education_platform/static/media/books1.04930760b1f20a48d561.png",
+    "static/media/books.png": "/Pathshala-Online_Education_platform/static/media/books.3152c7a08ca38ea4a417.png",
+    "static/media/catreadingbook.png": "/Pathshala-Online_Education_platform/static/media/catreadingbook.23793d67559a4235b634.png",
+    "static/media/school (2).png": "/Pathshala-Online_Education_platform/static/media/school (2).8a09a073d88a5f509b3a.png",
+    "static/media/teacher4.png": "/Pathshala-Online_Education_platform/static/media/teacher4.aff4d0ba959aad166dbe.png",
+    "static/media/teacher3.png": "/Pathshala-Online_Education_platform/static/media/teacher3.627ab7b8660ad3942056.png",
+    "static/media/book.png": "/Pathshala-Online_Education_platform/static/media/book.61fc12a2ddf4116ee303.png",
+    "static/media/boy.png": "/Pathshala-Online_Education_platform/static/media/boy.7b8df071344de4ba80af.png",
+    "static/media/Practice_set-removebg-preview.png": "/Pathshala-Online_Education_platform/static/media/Practice_set-removebg-preview.f8b58e79d228f8a0482a.png",
+    "static/media/access notes.png": "/Pathshala-Online_Education_platform/static/media/access notes.8588a00101338cb65436.png",
+    "static/media/give access.png": "/Pathshala-Online_Education_platform/static/media/give access.b397df8160998ab76ea6.png",
+    "static/media/student1.png": "/Pathshala-Online_Education_platform/static/media/student1.bed31416650de9d97003.png",
+    "static/media/student3.png": "/Pathshala-Online_Education_platform/static/media/student3.269dc8789c8be8f58d1e.png",
+    "static/media/student2.png": "/Pathshala-Online_Education_platform/static/media/student2.fea762d9a37c6842e7ed.png",
+    "static/media/teacher2.png": "/Pathshala-Online_Education_platform/static/media/teacher2.bcfe2050bec50a20b7e2.png",
+    "static/media/upload.png": "/Pathshala-Online_Education_platform/static/media/upload.3a633ca5344df101cad9.png",
+    "static/media/register.png": "/Pathshala-Online_Education_platform/static/media/register.c3f27c8d1748c1a5704d.png",
+    "static/media/ncert-removebg-preview.png": "/Pathshala-Online_Education_platform/static/media/ncert-removebg-preview.1306e4ccea2615f69fa1.png",
+    "static/media/teacher1.png": "/Pathshala-Online_Education_platform/static/media/teacher1.942ef097d4231c9c5dde.png",
+    "static/media/quizes-removebg-preview.png": "/Pathshala-Online_Education_platform/static/media/quizes-removebg-preview.5492b5e6df52895087da.png",
+    "static/media/sample-removebg-preview.png": "/Pathshala-Online_Education_platform/static/media/sample-removebg-preview.76636b9754817063fa9f.png",
+    "static/media/sampleparer-removebg-preview.png": "/Pathshala-Online_Education_platform/static/media/sampleparer-removebg-preview.c9bf264f50eacdd84ae5.png",
+    "static/media/member2.png": "/Pathshala-Online_Education_platform/static/media/member2.cde9d4184585633afcfa.png",
+    "static/media/member1.png": "/Pathshala-Online_Education_platform/static/media/member1.a77bcf9da05f53e76723.png",
+    "index.html": "/Pathshala-Online_Education_platform/index.html",
+    "main.806c6b34.css.map": "/Pathshala-Online_Education_platform/static/css/main.806c6b34.css.map",
+    "main.3ec25ecc.js.map": "/Pathshala-Online_Education_platform/static/js/main.3ec25ecc.js.map",
+    "787.33337244.chunk.js.map": "/Pathshala-Online_Education_platform/static/js/787.33337244.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.806c6b34.css",
+    "static/js/main.3ec25ecc.js"
+  ]
+}
