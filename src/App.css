@@ -303,7 +303,8 @@ h2 {
 .flow > * + * {
   margin-top: var(--flow-space, 4em);
 }
-.cards {
+
+.cards10 {
     display: grid;
     place-items: center;
     width: 87%;
@@ -314,16 +315,16 @@ h2 {
     box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.25);
     padding: 10px; 
 }
-.cards > * {
+.cards10 > * {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
-.cards__background {
+.cards__background10 {
   object-fit: cover;
   width: 100%;
   height: 50%;
 }
-.cards__content {
+.cards__content10 {
   --flow-space: 0.9375rem;
   display: flex;
   flex-direction: column;
@@ -338,15 +339,15 @@ h2 {
     hsl(0, 0%, 0%) 100%
   );
 }
-.cards__content--container {
+.cards__content10--container {
   --flow-space: 1.25rem;
 }
-.cards__title {
+.cards__title10 {
   position: relative;
   width: fit-content;
   width: -moz-fit-content; 
 }
-.cards__title::after {
+.cards__title10::after {
   content: "";
   position: absolute;
   height: 0.25rem;
@@ -355,7 +356,7 @@ h2 {
   left: -1.25rem;
   background-color: var(--brand-color);
 }
-.cards__button {
+.cards__button10 {
   width: 40%;
   height:30%;
   font-variant: small-caps;
@@ -368,19 +369,19 @@ h2 {
   color: var(--black);
 }
 
-.cards__button:focus {
+.cards__button10:focus {
   outline: 2px solid black;
   outline-offset: -5px;
 }
 
 @media (any-hover: hover) and (any-pointer: fine) {
-  .cards__content {
+  .cards__content10 {
     transform: translateY(92%);
     transition: transform 500ms ease-out;
     transition-delay: 500ms;
   }
 
-  .cards__title::after {
+  .cards__title10::after {
     opacity: 0;
     transform: scaleX(0);
     transition: opacity 1000ms ease-in, transform 500ms ease-out;
@@ -388,48 +389,48 @@ h2 {
     transform-origin: right;
   }
 
-  .cards__background {
+  .cards__background10 {
     transition: transform 500ms ease-in;
   }
 
-  .cards__content--container > :not(.cards__title),
-  .cards__button {
+  .cards__content10--container > :not(.cards__title10),
+  .cards__button10 {
     opacity: 0;
     transition: transform 500ms ease-out, opacity 500ms ease-out;
   }
 
-  .cards:hover,
-  .cards:focus-within {
+  .cards10:hover,
+  .cards10:focus-within {
     transform: scale(1.05);
     transition: transform 500ms ease-in;
   }
 
-  .cards:hover .cards__content,
-  .cards:focus-within .cards__content {
+  .cards10:hover .cards__content10,
+  .cards10:focus-within .cards__content10 {
     transform: translateY(0);
     transition: transform 500ms ease-in;
   }
 
-  .cards:focus-within .cards__content {
+  .cards10:focus-within .cards__content10{
     transition-duration: 0ms;
   }
 
-  .cards:hover .cards__background,
-  .cards:focus-within .cards__background {
+  .cards10:hover .cards__background10,
+  .cards10:focus-within .cards__background10 {
     transform: scale(1.3);
   }
 
-  .cards:hover .cards__content--container > :not(.cards__title),
-  .cards:hover .cards__button,
-  .cards:focus-within .cards__content--container > :not(.cards__title),
-  .cards:focus-within .cards__button {
+  .cards10:hover .cards__content10--container > :not(.cards__title10),
+  .cards10:hover .cards__button10,
+  .cards10:focus-within .cards__content10--container > :not(.cards__title10),
+  .cards10:focus-within .cards__button10 {
     opacity: 1;
     transition: opacity 500ms ease-in;
     transition-delay: 1000ms;
   }
 
-  .cards:hover .cards__title::after,
-  .cards:focus-within .cards__title::after {
+  .cards10:hover .cards__title10::after,
+  .cards10:focus-within .cards__title10::after {
     opacity: 1;
     transform: scaleX(1);
     transform-origin: left;
@@ -437,21 +438,21 @@ h2 {
     transition-delay: 500ms;
   }
 }
-.options{
+.options10{
     display: flex;
     justify-content: center;
     align-items:center ;
     list-style: none;
     background-color: rgb(95 87 78);
 }
-.heading1 h1, p{
+.heading100 h1, p{
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
-.heading1 p{
+.heading100 p{
     font-size: 1.25rem;
 }
-.heading1{
+.heading100{
   background-color: rgb(62, 57, 52);
   margin: 0;
   display: flex;
@@ -459,19 +460,7 @@ h2 {
   align-items: center; 
   text-align: center; 
 }
-
-/* .cardbutton{
-  border: 2px solid black;
-  border-radius: 5px;
-  background-color: #f72c0d;
-  width: 100px;
-} */
-
-
-
-
-
-.heading {
+.heading10 {
     height: 10vh;
   margin: 0;
   background-color: orangered;
@@ -482,12 +471,13 @@ h2 {
   align-items: center;
 }
 
-.cardbutton {
+.cardbutton10 {
   padding: 10px 20px;
   color: white;
   cursor: pointer;
   border: 2px solid black;
   border-radius: 5px;
   background-color: #f72c0d;
-  width: 100px;
+  width: 8rem;
+  height:3rem;
 }
