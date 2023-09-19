@@ -1,7 +1,5 @@
 import React from "react";
-import "./Cbse.css";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 import Photo from "../Assets/main.jpg";
 import { useNavigate } from 'react-router-dom';
 function Cbse() {
@@ -11,7 +9,7 @@ function Cbse() {
     navigate('/');
   };
   return (
-    <>
+    <div className="Adbhut" >
       <Navbar />
 
       <div
@@ -24,18 +22,15 @@ function Cbse() {
           height: "100% ",
         }}
       >
-        <div className="heading" style={{ margin: "0px",backgroundColor:'orangered',textAlign:'center',borderBottom:'2px solid black',display:'flex' }}>
-        <div style={{display:'flex',paddingLeft:'0px',paddingTop:'10px',height:'50%'}}>
+        <div className="heading">
+      <div className="back-button">
         <button className="cardbutton" onClick={handleBackClick}>Back</button>
-          </div>
-          <div style={{paddingLeft:'35%'}}>
-          <h1>CBSE</h1>
-          <p>Central Board Of Secondary Education</p>
-          </div>
-        </div>
+      </div>
+      <h1 style={{paddingRight:"50%",marginTop:'4rem'}}>CBSE</h1>
+    </div>
         <div className="heading1" style={{ margin: "0px" }}>
           <h1>CBSE Class 12 Syllabus: </h1>
-          <p>Empowering Success with Extensive Curriculum Coverage</p>Central Board of Secondary Education
+          <p>Empowering Success with Extensive Curriculum Coverage</p>
         </div>
         <ul className="options" >
           <li className="classoption" style={{width:'100%',height:'70%'}}>
@@ -178,9 +173,8 @@ function Cbse() {
           </li>
         </ul>
       </div>
-
-
-    </>
+    </div>
+    
   );
 }
 

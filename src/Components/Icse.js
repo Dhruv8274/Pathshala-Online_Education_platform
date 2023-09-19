@@ -1,5 +1,4 @@
 import React from "react";
-import "./Icse.css";
 import Navbar from "./Navbar";
 // import Footer from "./Footer";
 import Photo from "../Assets/main.jpg";
@@ -24,17 +23,13 @@ function ICSE() {
           height: "100% ",
         }}
       >
-        <div className="heading" style={{ margin: "0px",backgroundColor:'orangered',textAlign:'center',borderBottom:'2px solid black',display:"flex" }}>
-          <div style={{display:'flex',paddingLeft:'0px',paddingTop:'10px',height:'50%'}}>
+        <div className="heading">
+      <div className="back-button">
         <button className="cardbutton" onClick={handleBackClick}>Back</button>
-          </div>
-          <div style={{paddingLeft:'35%'}}>
-            <h1>ICSE</h1>
-          <p>Central Board of Secondary Education</p>
-          </div>
-          
-        </div>
-        <div className="heading1" style={{ margin: "0px" }}>
+      </div>
+      <h1 style={{paddingRight:"50%",marginTop:'4rem'}}>ICSE</h1>
+    </div>
+        <div className="heading1" style={{ margin: "0px" ,alignItems:"center",justifyContent:"center"}}>
           <h1>ICSE Class 12 Syllabus: </h1>
           <p>Empowering Success with Extensive Curriculum Coverage</p>
         </div>
