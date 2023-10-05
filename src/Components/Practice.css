@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.practicecontainer {
+  height: 80vh;
+}
+.side-nav,
+.nav-menu {
+  height: 100%;
+}
+.side-nav .nav-menu {
+  list-style: none;
+  padding: 40px 0;
+  width: 250px;
+  background-color: #3498db;
+}
+.side-nav .nav-item {
+  position: relative;
+  padding: 10px 20px;
+}
+.nav-item.active {
+  background-color: #fff;
+  box-shadow: 0px -3px rgba(0, 0, 0, 0.2), 0px 3px rgba(0, 0, 0, 0.2);
+}
+.nav-item.active a {
+  color: #2980b9;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+.menu-text {
+  padding: 0 20px;
+}
+.side-nav .nav-item.active::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  bottom: 100%;
+  right: 0;
+  height: 150%;
+  width: 20px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 20px 0 0 #fff;
+}
+.side-nav .nav-item.active::after {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  top: 100%;
+  right: 0;
+  height: 150%;
+  width: 20px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 -20px 0 0 #fff;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin-top: 8rem;
+  margin-left: 2rem;
+  background-color: #7dc3f2;
+  border-radius: 6px;
+}
+.heading {
+  margin: 1rem;
+}
+.heading h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(19, 19, 19);
+}
+.heading p {
+  font-family: "Courier New", Courier, monospace;
+}
+.details:hover() {
+  width: 210px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2980b9;
+  padding: 10px;
+  width: 100vw;
+}
+.items ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.items ul li button{
+    background-color: #7dc3f2;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: 4px #0a71b5;
+}
+.items ul li button:hover{
+    background-color:#42a6e9 ;
+    width: 5.1rem;
+    height: 2.6rem;
+}
+.pdf {
+    background-color: rgb(255, 223, 229); 
+    width: 20rem;
+    height: 15rem;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 30px;
+    box-shadow: 5px 5px 0px 0px #000;
+  }
+  
+.pdf img {
+    width: 18rem;
+    height: 10rem;
+  }
+.pdf img:hover{
+    width: 20rem;
+  }
+.pdf-button{
+    padding: 0.5rem;
+    margin: 1.8rem;
+    background-color: #0a71b5;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px 0px #000;
+}
+.pdfcontainer{
+    flex-wrap:wrap;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdf-button:hover{
+    background-color: #48aef2; 
+}

@@ -66,3 +66,6 @@ input[type=text], select, textarea {
     transition: .5s ease-in-out;
     margin: 0px;
 }
+.firsticon p{
+  color: #bc9864;
+}

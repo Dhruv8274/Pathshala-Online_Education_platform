@@ -89,7 +89,7 @@ class BlackBackground extends React.Component {
             </div>
           </div>
         </div>
-        <div className="contactform" style={{padding:'20px',margin:'20px'}}>
+         <div className="contactform" style={{padding:'20px',margin:'20px'}}>
           <div
             class="container"
             style={{

@@ -17,7 +17,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Details from "./Components/Details";
 import School from "./Components/School";
 import Data from "./Components/Data";
-
+import Quizzes from "./Components/Quizzes";
+import Guide from "./Components/Guide";
+import Previousyear from "./Components/Previousyear";
 function App() {
   return (
     
@@ -31,6 +33,9 @@ function App() {
         <Route path="/icse" element={<Icse />} />
         <Route path="/cbse" element={<Cbse/>} />
         <Route path="/new_registration" element={<Register/>} />
+        <Route path="/Quizzes" element={<Quizzes/>} />
+        <Route path="/Guide" element={<Guide/>} />
+        <Route path="/Previousyear"element={<Previousyear/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -47,9 +47,9 @@ function Navbar() {
     Practice
   </button>
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a className="dropdown-item" href="/">Quizzes</a>
-    <a className="dropdown-item" href="/">Prev. Paper</a>
-    <a className="dropdown-item" href="/">Guide</a>
+    <Link className="dropdown-item" to="/Quizzes" >Quizzes</Link>
+    <Link className="dropdown-item" to="/Previousyear">Prev. Paper</Link>
+    <Link className="dropdown-item" to="/Guide">Guide</Link>
   </div>
 </div>
           </ul>
