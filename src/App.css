@@ -375,11 +375,11 @@ h2 {
 }
 
 @media (any-hover: hover) and (any-pointer: fine) {
-  .cards__content10 {
+  /* .cards__content10 {
     transform: translateY(92%);
     transition: transform 500ms ease-out;
     transition-delay: 500ms;
-  }
+  } */
 
   .cards__title10::after {
     opacity: 0;
@@ -483,4 +483,8 @@ h2 {
 }
 p{
   color: black;
+}
+.generalheading{
+  margin-bottom: -0.5rem;
+  margin-left: 37rem;
 }

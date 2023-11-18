@@ -27,8 +27,8 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav" style={{ gap: '20px', fontSize: '1rem' }}>
-            <li className="nav-item active">
-              <Link className="nav-link" to="/">
+            <li className="nav-item active"style={{backgroundColor:' #343a40',color:'white'}}>
+              <Link className="nav-link" to="/" >
                 Home
               </Link>
             </li>
@@ -49,7 +49,7 @@ function Navbar() {
   <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <Link className="dropdown-item" to="/Quizzes" >Quizzes</Link>
     <Link className="dropdown-item" to="/Previousyear">Prev. Paper</Link>
-    <Link className="dropdown-item" to="/Guide">Guide</Link>
+    <Link className="dropdown-item" to="/Physics">Guide</Link>
   </div>
 </div>
           </ul>

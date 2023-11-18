@@ -18,13 +18,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 4.5rem;
+  padding-left: 58.5rem;
 }
 
 h1, h2 {
   margin: 0;
   white-space: nowrap;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
 }
 
 .content h1 {

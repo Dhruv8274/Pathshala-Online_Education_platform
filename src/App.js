@@ -20,6 +20,13 @@ import Data from "./Components/Data";
 import Quizzes from "./Components/Quizzes";
 import Guide from "./Components/Guide";
 import Previousyear from "./Components/Previousyear";
+import Twelthsubject from "./Components/Twelthsubject";
+import TwelthBookpdf from "./Components/TwelthBookpdf";
+import TenthBookpdf from "./Components/TenthBookpdf";
+import Tenthsubject from "./Components/Tenthsubject";
+import NinthBookpdf from "./Components/NinthBookpdf";
+import NinthSubject from "./Components/NinthSubject";
+import Physics from "./Components/Physics";
 function App() {
   return (
     
@@ -36,6 +43,13 @@ function App() {
         <Route path="/Quizzes" element={<Quizzes/>} />
         <Route path="/Guide" element={<Guide/>} />
         <Route path="/Previousyear"element={<Previousyear/>}/>
+        <Route path="/Twelthsubject"element={<Twelthsubject/>}/>
+        <Route path="/TwelthBookpdf"element={<TwelthBookpdf/>}/>
+        <Route path="/Tenthsubject"element={<Tenthsubject/>}/>
+        <Route path="/TenthBookpdf"element={<TenthBookpdf/>}/>
+        <Route path="/NinthBookpdf"element={<NinthBookpdf/>}/>
+        <Route path="/NinthSubject"element={<NinthSubject/>}/>
+        <Route Path="/Physics"element={<Physics/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

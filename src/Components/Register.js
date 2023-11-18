@@ -83,7 +83,7 @@ function BlackBackground() {
 
   return (
     <div className="loginpage"style={containerStyle}>
-      <div className="heading" style={{ justifyContent: "center", color: "white"}}>
+      <div className="heading" style={{ justifyContent: "center", color: "white",marginRight:"34rem"}}>
         <img alt="loading" src={Books} style={{width:'20rem',height:"15rem",paddingLeft:'6rem'}}/>
         <div className="text">
         <h1>Welcome to PathShala!</h1>

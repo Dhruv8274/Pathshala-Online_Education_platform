@@ -8,6 +8,24 @@ function Cbse() {
   const handleBackClick = () => {
     navigate('/');
   };
+  const handleTwelthSubjectClick = () => {
+    navigate('/Twelthsubject');
+  };
+  const handleTwelthBookPdfClick = () => {
+    navigate('/TwelthBookpdf');
+  };
+  const handleNinthSubject = () => {
+    navigate('/NinthSubject');
+  };
+  const handleNinthBookpdf = () => {
+    navigate('/NinthBookpdf');
+  };
+  const handleTenthSubject = () => {
+    navigate('/TenthSubject');
+  };
+  const handleTenthBookpdf = () => {
+    navigate('/TenthBookpdf');
+  };
   return (
     <>
       <Navbar />
@@ -43,7 +61,7 @@ function Cbse() {
               Get all subject notes of class 12th in One drive.
               </p>
             </div>
-            <button className="cards__button10">Go to Drive</button>
+            <button className="cards__button10" onClick={handleTwelthSubjectClick}>Go to Drive</button>
           </div>
         </article>
           </li>
@@ -71,7 +89,7 @@ function Cbse() {
               Get all books pdf like NCERT, Rs.Aggarwal etc... so that You can simply go through and Bookmark them.
               </p>
             </div>
-            <button className="cards__button10">Visit Library</button>
+            <button className="cards__button10" onClick={handleTwelthBookPdfClick}>Visit Library</button>
           </div>
         </article>
           </li>
@@ -91,7 +109,7 @@ function Cbse() {
               Get all subject notes of class 12th in One drive.
               </p>
             </div>
-            <button className="cards__button10">Go to Drive</button>10
+            <button className="cards__button10"onClick={handleTenthSubject}>Go to Drive</button>10
           </div>
         </article>
           </li>
@@ -119,7 +137,7 @@ function Cbse() {
               Get all books pdf like NCERT, Rs.Aggarwal etc... so that You can simply go through and Bookmark them.
               </p>
             </div>
-            <button className="cards__button10">Visit Library</button>
+            <button className="cards__button10" onClick={handleTenthBookpdf}>Visit Library</button>
           </div>
         </article>
           </li>
@@ -136,10 +154,10 @@ function Cbse() {
             <div className="cards__content10--container | flow">
               <h2 className="cards__title10"style={{color:'White'}}>9th all notes</h2>
               <p className="cards__description10"style={{color:'White'}}>
-              Get all subject notes of class 12th in One drive.
+              Get all subject notes of class 9th in One drive.
               </p>
             </div>
-            <button className="cards__button10">Go to Drive</button>
+            <button className="cards__button10" onClick={handleNinthSubject}>Go to Drive</button>
           </div>
         </article>
           </li>
@@ -167,7 +185,7 @@ function Cbse() {
               Get all books pdf like NCERT, Rs.Aggarwal etc... so that You can simply go through and Bookmark them.
               </p>
             </div>
-            <button className="cards__button10">Visit Library</button>
+            <button className="cards__button10" onClick={handleNinthBookpdf}>Visit Library</button>
           </div>
         </article>
           </li>

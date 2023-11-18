@@ -24,7 +24,7 @@ function Previousyear() {
             </li>
             <li className="pracheading">
                 <div className="pracheading2" >
-                    <h1>Previous Year Questions</h1>
+                    <h1 className="generalheading">Previous Year Questions</h1>
                 </div>
             </li>
           </ul>
